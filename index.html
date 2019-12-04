@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Test</title>
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+         <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&display=swap"
+        rel="stylesheet"> 
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+
+        <div class="section-wrapper">
+            <section class="section section-start bc-pink">
+                <!-- image -->
+                <div class="image-container">
+                    <div
+                        class="image-background"
+                        style="background-image: url(img/girl-background.jpg);"></div>
+                    <div class="image-footer">название1 название2 название3 название4 очень длинное
+                        название5 очень очень длинное название6 длинное название7 длинное название8</div>
+                </div>
+                <!-- heart -->
+                <div class="section__heart icon-heart">
+
+                </div>
+                <!-- question -->
+                <div class="question-container">
+                    <div>
+                        <h2 class="question-title">Lorem ipsum</h2>
+                        <p class="question-p">Mauris vel nisi ac orci placerat semper. Aenean sapien massa.</p>
+                    </div>
+                    <div class="question-block">
+                        <h2 class="question-title__start">Lorem Ipsum?</h2>
+                        <button id="startBtn" class="question-btn">Начать</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section bc-orange d-none">
+                <!-- image -->
+                <div class="image-container">
+                    <div
+                        class="image-background"
+                        style="background-image: url(img/girl-background.jpg);"></div>
+                    <div class="image-statistics">
+                        <span class="image-statistics__percent">30%</span>
+                        <span class="image-statistics__text">людей обращают внимание на <strong></strong></span></div>
+                    <div class="image-footer">название1 название2 название3 название4 очень длинное
+                        название5 очень очень длинное название6 длинное название7 длинное название8</div>
+                </div>
+                <!-- heart -->
+                <div class="section__heart icon-heart">
+
+                </div>
+                <!-- question -->
+                <div class="question-container">
+                    <h2 class="question-title"></h2>
+                    <div class="question-block">
+
+                    </div>
+                    <button class="question-btn">продолжить</button>
+                </div>
+            </section>
+
+            <section class="section bc-yellow d-none">
+                <!-- image -->
+                <div class="image-container">
+                    <div
+                        class="image-background"
+                        style="background-image: url(img/girl-background.jpg);"></div>
+                    <div class="image-statistics">
+                        <span class="image-statistics__percent">30%</span>
+                        <span class="image-statistics__text">людей обращают внимание на <strong></strong></span></div>
+                    <div class="image-footer">название1 название2 название3 название4 очень длинное
+                        название5 очень очень длинное название6 длинное название7 длинное название8</div>
+                </div>
+                <!-- heart -->
+                <div class="section__heart icon-heart">
+
+                </div>
+                <!-- question -->
+                <div class="question-container">
+                    <h2 class="question-title"></h2>
+                    <div class="question-block">
+
+                    </div>
+                    <button class="question-btn">продолжить</button>
+                </div>
+            </section>
+
+            <section class="section section-form bc-blue d-none">
+                <!-- image -->
+                <div class="image-container">
+                    <div
+                        class="image-background"
+                        style="background-image: url(img/girl-background.jpg);"></div>
+                    <div class="image-footer">название1 название2 название3 название4 очень длинное
+                        название5 очень очень длинное название6 длинное название7 длинное название8</div>
+                </div>
+                <!-- heart -->
+                <div class="section__heart icon-heart">
+
+                </div>
+                <!-- question -->
+                <div class="question-container">
+                    <h2 class="question-title">
+                        Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit, 
+                        sed do eiusmod 
+                    </h2>
+                    <div class="question-block">
+                        <form class="question-form" action="" method="GET">
+                            <span class="span-label">я ищу:</span>
+                            <div class="question-form__double">
+                                <div class="input-container">
+                                    <input class="inputSex" id="sex-0" type="radio" name="answear-sex" required>
+                                    <label class="answer-label" for="sex-0"><span class="icon-man"></span> Вариант 1</label>
+                                </div>
+                                <div class="input-container">
+                                    <input class="inputSex" id="sex-1" type="radio" name="answear-sex" required>
+                                    <label class="answer-label" for="sex-1"><span class="icon-woman"></span> Вариант 2</label>
+                                </div>
+                            </div>
+                            <span class="span-label">Ваше имя:</span>
+                            <div class="input-container">
+                                <label class="error-label" for="inputName">Введите свое имя</label>
+                                <input class="answer-input" id="inputName" type="text" name="name" placeholder="" required>
+                            </div>
+                            <span class="span-label">Email:</span>
+                            <div class="input-container">
+                                <label class="error-label" for="inputEmail">Неверный формат email</label>
+                                <input class="answer-input" id="inputEmail" type="email" name="email" placeholder="" required>
+                            </div>
+                            <span class="span-label">Придумайте пароль:</span>
+                            <div class="input-container">
+                                <label class="error-label" for="inputPassword">Придумайте новый пароль > 6 символов</label>
+                                <input class="answer-input" id="inputPassword" type="password" name="password" placeholder="" required>
+                            </div>
+                            <label class="form-conditions" for="inputConditions">
+                                <input type="checkbox" id="inputConditions" required>
+                                Регистрируясь, вы подтверждаете, что вам уже исполнилось 
+                                18 лет и вы ознакомились с условиями пользования сайтом.
+                            </label>
+                            <button class="form-btn form-btn__disabled" disabled>продолжить</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+
+        <div class="rotate">
+            <img src="img/rotate.gif" alt="поверните Ваше устройство в вертикальное положение">
+            <h2>поверіть Ваш пристрій</h2>
+            <h4>в вертикальне положення для комфортного перегляду сайта</h4>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>

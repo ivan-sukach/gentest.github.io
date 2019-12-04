@@ -1,0 +1,54 @@
+$pink: #fc5095;
+$orange: #fc8950;
+$yellow: #fcc150;
+$blue: #1da7c0;
+$white: #fff;
+$black: #000;
+$dark-grey: #3b3b3b;
+
+.bc-pink{
+  background: $pink;
+}
+
+.bc-orange{
+  background: $orange;
+}
+
+.bc-yellow{
+  background: $yellow;
+}
+
+.bc-blue{
+  background: $blue;
+}
+
+// ---animation backgrounds--
+// .anim-bc-pink{
+//   background: linear-gradient(319deg, $pink, #ffffff);
+//   background-size: 399.99% 400%;
+//   animation: background 9s ease infinite;
+// }
+// .anim-bc-orange{
+//   background: linear-gradient(317deg, $orange, #ffffff);
+//   background-size: 401% 400%;
+//   animation: background 9s ease infinite;
+// }
+// .anim-bc-yellow{
+//   background: linear-gradient(318deg, $yellow, #ffffff);
+//   background-size: 499.98% 400%;
+//   animation: background 9s ease infinite;
+// }
+// .anim-bc-blue{
+//   background: linear-gradient(312deg, $blue, #ffffff);
+//   background-size: 400% 400%;
+//   animation: background 9s ease infinite;
+// }
+// ---/animation backgrounds--
+
+
+
+// @keyframes background {
+//   0%{background-position:0% 37%}
+//   50%{background-position:100% 64%}
+//   100%{background-position:0% 37%}
+// }

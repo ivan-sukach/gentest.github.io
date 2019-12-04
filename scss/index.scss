@@ -1,0 +1,110 @@
+/*
+
+==============
+\\ Структура \\
+===============
+
+  1. body
+
+  2. reset
+    2.1 * reset-styles
+    2.2 a reset-styles
+    2.3 img reset-styles
+    2.4 ol, ul reset-styles
+
+  3. colors
+    3.1 color variables
+    3.2 background classes
+    3.3 //background-animation classes
+
+  4. change-colors // Якщо секції заданий клас .bc-"color", то всі елементи, які прописані в нижче будуть приймати їхні кольри
+    .section.bc-"Color"
+      4.1 section__heart
+      4.2 question-title
+      4.3 icon-heart:before
+      4.4 image-statistics:after
+      4.5 question-btn
+      4.6 nput[type="radio"]:checked+label
+      4.7 form-btn
+      4.8 form-btn__disabled
+      4.9 question-container
+  
+  5. basics
+    5.1 basic classes
+    5.2 font-face
+
+  6. image-block
+    6.1 image-container // та інші з корнем image
+  
+  7.heart-block
+    7.1 section-heart styles
+  
+  8. question-block
+    8.1 question classes
+    8.2 buttons
+    8.3 form
+    8.4 inputs
+    8.5 icons
+  
+  9. media
+    9.1 max-width: 1025px
+    9.2 max-width: 992px
+    9.3 max-width: 600px
+    9.4 max-width: 380px
+    9.5 max-width: 850px and orientation: landscape
+    9.6 max-height: 769px and min-width: 1020px
+
+===============
+\\ THE \\ END \\
+================
+
+*/
+
+/*
+/======= 1. body ========/
+/=======================/*/
+body{
+  font-family: 'Open Sans', sans-serif;
+  overflow: hidden;
+}
+
+/*
+/======= 2. reset ========/
+/========================/*/
+@import '_reset';
+
+/*
+/======= 3. colors ========/
+/=========================/*/
+@import '_colors';
+
+/*
+/======= 4. change-colors ========/
+/===============================/*/
+@import '_change-colors';
+
+/*
+/======= 5. basics ========/
+/==========================/*/
+@import '_basics';
+
+/*
+/======= 6. image-block ========/
+/=============================/*/
+@import '_image-block';
+
+/*
+/======= 7.heart-block ========/
+/============================/*/
+@import '_heart-block';
+
+/*
+/======= 8. question-block ========/
+/================================/*/
+@import '_question-block';
+
+/*
+/======= 9. media ========/
+/=======================/*/
+
+@import '_media'

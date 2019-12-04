@@ -1,0 +1,24 @@
+.section__heart{
+  border-radius: 100%;
+  border-width: 10px;
+  background-color: $white;
+
+  position: absolute;
+  padding: 10px;
+  left: $image-container-width;
+  top: 30%;
+  transform: translate(-40%,-50%);
+  width: 80px;
+  height: 80px;
+  user-select: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.icon-heart:before {
+  content: "\e900";
+  font-size: 39px;
+  transition: color .5s;
+}

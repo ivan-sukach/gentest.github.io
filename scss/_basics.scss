@@ -1,0 +1,132 @@
+.section-wrapper{
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.d-none{
+  z-index: -1;
+  transform: translateY(100%);
+  display: none;
+  opacity: 0;
+  transition: .4s;
+
+}
+.d-show{
+  z-index: 2;
+  opacity: 1;
+  transform: translateY(0px) !important;
+  transition: .4s;
+}
+
+.rotate{
+  display: none;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.719);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: $white;
+  padding: 20px 90px;
+  z-index: 10;
+  transition: .4s;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  h2, h4{
+    text-align: center;
+  }
+  img{
+    max-width: 150px;
+  }
+}
+
+.btn-hidden{
+  opacity: 0;
+  visibility: hidden;
+}
+
+
+
+$image-container-width-start: 72%;
+$question-width-start: 27%;
+
+.section-start > {
+  .image-container{
+    height: 100%;
+    width: $image-container-width-start;
+  }
+  .question-container{
+    width: $question-width-start;
+    background: $white;
+    height: 85%;
+    overflow-x: auto;
+    justify-content: space-around;
+  }
+  .section__heart{
+    left: $image-container-width-start;
+  }
+  .question-btn{
+    font-size: 38px;
+    font-weight: 700;
+    padding: 15px 50px;
+  }
+}
+
+.section-form > {
+  .question-container{
+    justify-content: space-between;
+  }
+}
+
+$image-container-width: 60%;
+$question-width: 39%;
+
+.image-container{
+  height: 100%;
+  width: $image-container-width;
+}
+
+
+.section{
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  transition: .4s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+
+
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.eot?4n88kr');
+  src: url('../fonts/icomoon.eot?4n88kr#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?4n88kr') format('truetype'),
+    url('../fonts/icomoon.woff?4n88kr') format('woff'),
+    url('../fonts/icomoon.svg?4n88kr#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
